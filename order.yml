@@ -12,6 +12,3 @@ spring:
     rabbitmq:
       host: 192.168.2.16
       port: 5672
-#server:
-#  port: 8081
-#  address: 192.168.2.112
