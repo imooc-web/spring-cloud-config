@@ -9,6 +9,6 @@ spring:
   jpa:
     show-sql: true
     #rabbitmq配置
-    rabbitmq:
-      host: 192.168.2.16
-      port: 5672
+  rabbitmq:
+    host: 192.168.2.16
+    port: 5672
