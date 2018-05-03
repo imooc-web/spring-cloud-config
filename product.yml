@@ -11,6 +11,9 @@ spring:
     host: 192.168.2.16
     port: 5672
     username: guest
-    password: guest  
+    password: guest
+  redis:
+    host: 192.168.2.19
+    port: 6379
   jpa:
     show-sql: true
