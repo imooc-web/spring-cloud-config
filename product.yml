@@ -6,5 +6,11 @@ spring:
     username: root
     password: zwl@910425
     url: jdbc:mysql://111.231.196.241:3306/SpringCloudSell?characterEncoding=utf-8&useSSL=false
+  #rabbitmq配置
+  rabbitmq:
+    host: 192.168.2.16
+    port: 5672
+    username: guest
+    password: guest  
   jpa:
     show-sql: true
