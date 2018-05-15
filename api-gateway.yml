@@ -1,3 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: zwl@910425
+    url: jdbc:mysql://111.231.196.241:3306/SpringCloudSell?characterEncoding=utf-8&useSSL=false
+  #rabbitmq配置
+  rabbitmq:
+    host: 192.168.2.16
+    port: 5672
+    username: guest
+    password: guest
+  redis:
+    host: 192.168.2.19
+    port: 6379
+    database: 2
 zuul:
   routes:
   # /myProduct/product/list -> /product/product/list
