@@ -5,7 +5,7 @@ zuul:
       myProduct: /myProduct/**
       serviceId: product
   #简洁写法
-#    product: /myProduct/**
+  #    product: /myProduct/**
   #排除某些路由
   ignored-patterns:
     - /**/product/listForOrder
