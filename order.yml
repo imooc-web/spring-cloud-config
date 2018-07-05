@@ -9,7 +9,7 @@ spring:
     host: 111.231.196.241
     port: 5672
     username: guest
-    password: guest
+    password: zwl@910425
   redis:
     host: localhost
     port: 6379
