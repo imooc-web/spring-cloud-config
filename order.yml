@@ -6,12 +6,12 @@ spring:
     url: jdbc:mysql://111.231.196.241:3306/SpringCloudSell?characterEncoding=utf-8&useSSL=false
   #rabbitmq配置
   rabbitmq:
-    host: 192.168.2.16
+    host: 111.231.196.241
     port: 5672
     username: guest
     password: guest
   redis:
-    host: 192.168.2.19
+    host: localhost
     port: 6379
     database: 2
   jpa:
